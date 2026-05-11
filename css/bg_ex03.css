@@ -1,0 +1,43 @@
+@import url(reset.css);
+.search {
+    padding: 10px 25px;
+    background: url(../images/magnifying-glass-solid.png) no-repeat left center;
+    background-size: 20px;
+}
+.search2 {
+    padding: 10px 25px;
+    background: url(../images/book-icon.png) no-repeat left bottom;
+    background-size: 20px;
+}
+.product {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #888;
+    background: url("../images/shose-removebg-preview\ 1.png") no-repeat center;
+    background-size: 200px;
+    background-origin: content-box;
+    padding: 20px;
+}
+.product h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+/*이미지 영역의 70프로, 이름을 중간, 이미지 중간*/
+.product2 {
+    background: url(../images/사탕.jpg) no-repeat center;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #888;
+    background-size: 200px;
+    padding: 20px;
+    position: relative;
+}
+.product2 h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+   
+}
